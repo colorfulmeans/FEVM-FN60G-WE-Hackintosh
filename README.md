@@ -11,17 +11,21 @@ FEVM FN60G-WE 水冷版的 macOS Tahoe EFI，基于[黑果小兵的 FEVM-FN60G-H
 | 主机 | FEVM FN60G-WE 水冷版 |
 | CPU | Intel Core i5-12600T，6 核 12 线程 |
 | 内存 | 32 GB DDR5-4800 |
+| 核心显卡 | Intel UHD Graphics 770（Xe-LP），本 EFI 通过 `-wegnoigpu` 禁用 |
 | 独立显卡 | AMD Radeon RX 6600M 8 GB，macOS 显示为 Radeon Pro W6600 |
 | SSD | SK hynix PC711 1 TB NVMe |
 | 无线网卡与蓝牙 | Broadcom BCM94360NG |
+| 隔空投送 | 支持，已实测与 iPhone 11 双向传输 |
 | 有线网卡 | 双 Realtek RTL8125B 2.5GbE |
 | 板载音频 | Realtek ALC897，layout-id 98 |
 | SMBIOS | iMacPro1,1 |
 | 系统与引导 | macOS Tahoe 26.7.3（25G342），OpenCore 1.0.8 MOD |
 
+本机用 RX 6600M 输出和加速，保留 WhateverGreen。社区的 [WhateverXe](https://github.com/b00t0x/WhateverXe#installation) 已在 Alder Lake-S 的 UHD 770 上验证核显加速，项目文档要求 WhateverXe 和 WhateverGreen 分开使用。
+
 ## 实测
 
-- 已验证启动、Recovery、背面 USB、3.5 mm 耳机、LAN2（2.5 Gb/s）、Wi‑Fi、蓝牙耳机配对及与 iPhone 的双向隔空投送。
+- 已验证启动、Recovery、背面 USB、3.5 mm 耳机、LAN2（2.5 Gb/s）、Wi‑Fi及蓝牙耳机配对。
 - Dell 显示器通过 USB‑C 可运行 3440 × 1440 @ 100 Hz，显示器的 USB‑C 优先级设为「高分辨率」。
 - SIP 和 Authenticated Root 均已开启。板载音频使用 [SimpleHDA 1.0.1](https://github.com/laobamac/SimpleHDA/releases/tag/v1.0.1)，BCM94360NG 使用 [SimpleBCM 1.2.0](https://github.com/laobamac/SimpleBCM/releases/tag/v1.2.0)。
 - 普通 H.264、HEVC 硬件编码通过。曾出现一次实时硬件编码卡死，相关场景仍需复测。
@@ -40,7 +44,13 @@ FEVM FN60G-WE 水冷版的 macOS Tahoe EFI，基于[黑果小兵的 FEVM-FN60G-H
 3. 运行 `networksetup -listallhardwareports`，查看本机物理有线网卡的接口和 MAC 地址。若选中的网口是 `en1`，也可以运行 `networksetup -getmacaddress en1`。取本机该网口的 MAC，去掉冒号，把 12 位十六进制数按六个字节填入 `ROM`，字段类型保持为 `Data`。
 4. 保存到自己的启动 U 盘，确认可以启动后再登录 Apple 账户。四项标识仅保存在本机 EFI 和私人备份中，发布配置时使用公版占位值。
 
-## 上游更新日志
+## 更新日志
+
+### 2026-11-17
+
+- 发布 FEVM FN60G-WE 水冷版 EFI，支持 macOS Tahoe 26.7.3（25G342）。
+
+### 上游更新记录
 
 - 7-30-2026
 
@@ -73,5 +83,3 @@ FEVM FN60G-WE 水冷版的 macOS Tahoe EFI，基于[黑果小兵的 FEVM-FN60G-H
   - 更新`OpenCore Mod` 到 `v0.9.8`
   - 修复超线程
   - 修复cpu型号显示异常
-
-上游截图见[原仓库说明](https://github.com/daliansky/FEVM-FN60G-Hackintosh#截图)。
