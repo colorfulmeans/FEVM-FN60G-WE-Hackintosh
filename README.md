@@ -1,8 +1,10 @@
 # FEVM-FN60G-WE-Hackintosh
 
+简体中文 · [English](./README.en.md)
+
 ![FEVM FN60G-WE 水冷版](https://cdn.mos.cms.futurecdn.net/MMkzeERxdT5ZmyTLJ44eYY-650-80.jpg.webp)
 
-FEVM FN60G-WE 水冷版的 macOS Tahoe EFI，基于[黑果小兵的 FEVM-FN60G-Hackintosh](https://github.com/daliansky/FEVM-FN60G-Hackintosh)。本机使用 [`V2/EFI`](./V2/EFI)，对应本文的配置清单。
+FEVM FN60G-WE 水冷版的 macOS Tahoe EFI，基于[黑果小兵的 FEVM-FN60G-Hackintosh](https://github.com/daliansky/FEVM-FN60G-Hackintosh)。公版下载见 [Releases](https://github.com/colorfulmeans/FEVM-FN60G-WE-Hackintosh/releases/latest)，仓库内路径为 [`V2/EFI`](./V2/EFI)。
 
 ## 配置清单
 
@@ -15,7 +17,7 @@ FEVM FN60G-WE 水冷版的 macOS Tahoe EFI，基于[黑果小兵的 FEVM-FN60G-H
 | 独立显卡 | AMD Radeon RX 6600M 8 GB，macOS 显示为 Radeon Pro W6600 |
 | SSD | SK hynix PC711 1 TB NVMe |
 | 无线网卡与蓝牙 | Broadcom BCM94360NG |
-| 隔空投送 | 支持，已实测与 iPhone 11 双向传输 |
+| 隔空投送 | 支持 |
 | 有线网卡 | 双 Realtek RTL8125B 2.5GbE |
 | 板载音频 | Realtek ALC897，layout-id 98 |
 | SMBIOS | iMacPro1,1 |
@@ -25,14 +27,14 @@ FEVM FN60G-WE 水冷版的 macOS Tahoe EFI，基于[黑果小兵的 FEVM-FN60G-H
 
 ## 实测
 
-- 已验证启动、Recovery、背面 USB、3.5 mm 耳机、LAN2（2.5 Gb/s）、Wi‑Fi及蓝牙耳机配对。
-- Dell 显示器通过 USB‑C 可运行 3440 × 1440 @ 100 Hz，显示器的 USB‑C 优先级设为「高分辨率」。
+- 已验证启动、Recovery、背面 USB、3.5 mm 耳机、LAN2（2.5 Gb/s）、Wi‑Fi 和蓝牙耳机配对。
+- RX 6600M 的 USB‑C ×1、HDMI ×1、DisplayPort ×2 均正常驱动。
 - SIP 和 Authenticated Root 均已开启。板载音频使用 [SimpleHDA 1.0.1](https://github.com/laobamac/SimpleHDA/releases/tag/v1.0.1)，BCM94360NG 使用 [SimpleBCM 1.2.0](https://github.com/laobamac/SimpleBCM/releases/tag/v1.2.0)。
-- 普通 H.264、HEVC 硬件编码通过。曾出现一次实时硬件编码卡死，相关场景仍需复测。
+- 常规 H.264、HEVC 硬件编码测试通过。
 
 ## 生成自己的 SMBIOS 标识
 
-把 [`V2/EFI`](./V2/EFI) 复制到用于测试的启动 U 盘 EFI 分区。编辑复制后的 `EFI/OC/config.plist`，打开 `PlatformInfo → Generic`。公版的 `SystemSerialNumber`、`MLB`、`SystemUUID` 为空，`ROM` 为六个零字节。保留 `SystemProductName` 为 `iMacPro1,1`。
+将发布包中的 `EFI/`（或仓库中的 [`V2/EFI`](./V2/EFI)）复制到用于测试的启动 U 盘 EFI 分区。编辑复制后的 `EFI/OC/config.plist`，打开 `PlatformInfo → Generic`。公版的 `SystemSerialNumber`、`MLB`、`SystemUUID` 为空，`ROM` 为六个零字节。保留 `SystemProductName` 为 `iMacPro1,1`。
 
 1. 解压 [OpenCore 1.0.8 RELEASE](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.8)，在 `Utilities/macserial` 目录运行下面的命令。输出的 `|` 左边是 `SystemSerialNumber`，右边是 `MLB`。把同一行的两项成对填入，去掉两端空格。
 
@@ -46,7 +48,7 @@ FEVM FN60G-WE 水冷版的 macOS Tahoe EFI，基于[黑果小兵的 FEVM-FN60G-H
 
 ## 更新日志
 
-### 2026-11-17
+### 2026-11-17 · v1.0.0
 
 - 发布 FEVM FN60G-WE 水冷版 EFI，支持 macOS Tahoe 26.7.3（25G342）。
 
