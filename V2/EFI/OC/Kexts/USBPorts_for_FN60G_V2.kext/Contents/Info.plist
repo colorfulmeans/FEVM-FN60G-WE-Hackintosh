@@ -133,7 +133,7 @@
 						<key>Comment</key>
 						<string>Upper USB 2.0 port at the rear</string>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>0</integer>
 						<key>name</key>
 						<string>HS05</string>
 						<key>port</key>
@@ -152,7 +152,7 @@
 						<key>Comment</key>
 						<string>Lower USB 2.0 port at the rear</string>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>0</integer>
 						<key>name</key>
 						<string>HS06</string>
 						<key>port</key>

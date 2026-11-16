@@ -24,14 +24,6 @@
 				<key>Path</key>
 				<string>FN60G_V2.aml</string>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Sleep Repair Patch</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-RPXX_PRW.aml</string>
-			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>
@@ -347,6 +339,256 @@
 				<data>
 				</data>
 			</dict>
+			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Comment</key>
+				<string>FN60G-WE RP05 _PRW GPE 0x69 S0 only</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				EEoPLwNfU0JfUEMwMFJQMDUUSQ5fUFJXAKBOBpGQkpNQ
+				U1czAJNSUE4zCgWQkpNXTFdLAJNXTFJQCgWgH5CSk1BT
+				VzMAk1JQTjMKBaRHUFJXR0dQRVBTVzMKBKEsoB+QkpNX
+				TFdLAJNXTFJQCgWkR1BSV0dHUEVXTFdLCgShCqRHUFJX
+				CmkKBKFCB6AfkJKTUFNXMgCTUlBOMgoFpEdQUldHR1BF
+				UFNXMgoEoU8EoB+QkpNQU1dQAJNSUE5CCgWkR1BSV0dH
+				UEVQU1dQCgShLKAfkJKTV1dLUACTV1dSUAoFpEdQUldH
+				R1BFV1dLUAoEoQqkR1BSVwppCgQ=
+				</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data>
+				</data>
+				<key>OemTableId</key>
+				<data>
+				QSBNIEkgAAA=
+				</data>
+				<key>Replace</key>
+				<data>
+				EEoPLwNfU0JfUEMwMFJQMDUUSQ5fUFJXAKQSBQIKaQCj
+				o6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Oj
+				o6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Oj
+				o6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Oj
+				o6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Oj
+				o6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Oj
+				o6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Oj
+				o6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6M=
+				</data>
+				<key>ReplaceMask</key>
+				<data>
+				</data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>569100</integer>
+				<key>TableSignature</key>
+				<data>
+				RFNEVA==
+				</data>
+			</dict>
+			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Comment</key>
+				<string>FN60G-WE RP08 _PRW GPE 0x69 S0 only</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				EEgILwNfU0JfUEMwMFJQMDgURwdfUFJXAKAfkJKTV0xX
+				SwCTV0xSUAoIpEdQUldHR1BFV0xXSwoEoU8EoB+QkpNQ
+				U1dQAJNSUE5CCgikR1BSV0dHUEVQU1dQCgShLKAfkJKT
+				V0xXSwCTV0xSUAoIpEdQUldHR1BFV0xXSwoEoQqkR1BS
+				VwppCgQ=
+				</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data>
+				</data>
+				<key>OemTableId</key>
+				<data>
+				QSBNIEkgAAA=
+				</data>
+				<key>Replace</key>
+				<data>
+				EEgILwNfU0JfUEMwMFJQMDgURwdfUFJXAKQSBQIKaQCj
+				o6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Oj
+				o6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Oj
+				o6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Oj
+				o6Ojo6M=
+				</data>
+				<key>ReplaceMask</key>
+				<data>
+				</data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>569100</integer>
+				<key>TableSignature</key>
+				<data>
+				RFNEVA==
+				</data>
+			</dict>
+			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Comment</key>
+				<string>FN60G-WE RP09 _PRW GPE 0x69 S0 only</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				EE4MLwNfU0JfUEMwMFJQMDkUTQtfUFJXAKAfkJKTUFNX
+				MgCTUlBOMgoJpEdQUldHR1BFUFNXMgoEoUUJoB+QkpNQ
+				U1czAJNSUE4zCgmkR1BSV0dHUEVQU1czCgShQgegH5CS
+				k1BTV1AAk1JQTkIKCaRHUFJXR0dQRVBTV1AKBKFPBKAf
+				kJKTT01XMQCTUlBPMQoJpEdQUldHR1BFT01XMQoEoSyg
+				H5CSk1dMV0sAk1dMUlAKCaRHUFJXR0dQRVdMV0sKBKEK
+				pEdQUlcKaQoE
+				</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data>
+				</data>
+				<key>OemTableId</key>
+				<data>
+				QSBNIEkgAAA=
+				</data>
+				<key>Replace</key>
+				<data>
+				EE4MLwNfU0JfUEMwMFJQMDkUTQtfUFJXAKQSBQIKaQCj
+				o6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Oj
+				o6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Oj
+				o6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Oj
+				o6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Oj
+				o6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Oj
+				o6Ojo6Ojo6Oj
+				</data>
+				<key>ReplaceMask</key>
+				<data>
+				</data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>569100</integer>
+				<key>TableSignature</key>
+				<data>
+				RFNEVA==
+				</data>
+			</dict>
+			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Comment</key>
+				<string>FN60G-WE RP21 _PRW GPE 0x69 S0 only</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				EEUGLwNfU0JfUEMwMFJQMjEURAVfUFJXAKAfkJKTUFNX
+				UACTUlBOQgoVpEdQUldHR1BFUFNXUAoEoSygH5CSk09N
+				VzEAk1JQTzEKFaRHUFJXR0dQRU9NVzEKBKEKpEdQUlcK
+				aQoE
+				</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data>
+				</data>
+				<key>OemTableId</key>
+				<data>
+				QSBNIEkgAAA=
+				</data>
+				<key>Replace</key>
+				<data>
+				EEUGLwNfU0JfUEMwMFJQMjEURAVfUFJXAKQSBQIKaQCj
+				o6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Oj
+				o6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Oj
+				o6Oj
+				</data>
+				<key>ReplaceMask</key>
+				<data>
+				</data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>569100</integer>
+				<key>TableSignature</key>
+				<data>
+				RFNEVA==
+				</data>
+			</dict>
+			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Comment</key>
+				<string>FN60G-WE RP25 _PRW GPE 0x69 S0 only</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				EEsKLwNfU0JfUEMwMFJQMjUUSglfUFJXAKAfkJKTUFNX
+				MgCTUlBOMgoZpEdQUldHR1BFUFNXMgoEoUIHoB+QkpNQ
+				U1czAJNSUE4zChmkR1BSV0dHUEVQU1czCgShTwSgH5CS
+				k09NVzEAk1JQTzEKGaRHUFJXR0dQRU9NVzEKBKEsoB+Q
+				kpNPTVcyAJNSUE8yChmkR1BSV0dHUEVPTVcyCgShCqRH
+				UFJXCmkKBA==
+				</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data>
+				</data>
+				<key>OemTableId</key>
+				<data>
+				QSBNIEkgAAA=
+				</data>
+				<key>Replace</key>
+				<data>
+				EEsKLwNfU0JfUEMwMFJQMjUUSglfUFJXAKQSBQIKaQCj
+				o6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Oj
+				o6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Oj
+				o6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Oj
+				o6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Oj
+				o6Ojo6Ojow==
+				</data>
+				<key>ReplaceMask</key>
+				<data>
+				</data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>569100</integer>
+				<key>TableSignature</key>
+				<data>
+				RFNEVA==
+				</data>
+			</dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
@@ -626,24 +868,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>AMFIPass.kext</string>
-				<key>Comment</key>
-				<string>V1.4.1</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AMFIPass</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string>23.0.0</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
 				<string>V1.7.1 | WhateverGreen.kext</string>
@@ -678,55 +902,37 @@
 			</dict>
 			<dict>
 				<key>Arch</key>
-				<string>Any</string>
+				<string>x86_64</string>
 				<key>BundlePath</key>
-				<string>IOSkywalkFamily.kext</string>
+				<string>SimpleHDA.kext</string>
 				<key>Comment</key>
-				<string>V1.0</string>
+				<string>SimpleHDA 1.0.1</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/IOSkywalkFamily</string>
+				<string>Contents/MacOS/SimpleHDA</string>
 				<key>MaxKernel</key>
-				<string></string>
+				<string>25.99.99</string>
 				<key>MinKernel</key>
-				<string></string>
+				<string>25.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
-				<string>Any</string>
+				<string>x86_64</string>
 				<key>BundlePath</key>
-				<string>IO80211FamilyLegacy.kext</string>
+				<string>SimpleBCM.kext</string>
 				<key>Comment</key>
-				<string>V1200.12.2b1</string>
+				<string>SimpleBCM embedded stack</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/IO80211FamilyLegacy</string>
+				<string>Contents/MacOS/SimpleBCM</string>
 				<key>MaxKernel</key>
-				<string></string>
+				<string>25.99.99</string>
 				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>IO80211FamilyLegacy.kext/Contents/PlugIns/AirPortBrcmNIC.kext</string>
-				<key>Comment</key>
-				<string>V1400.1.1</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AirPortBrcmNIC</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
+				<string>23.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -860,60 +1066,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>PcmMsrDriver.kext</string>
-				<key>Comment</key>
-				<string>V1</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/PcmMsrDriver</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>USBToolBox.kext</string>
-				<key>Comment</key>
-				<string>V1.2.0 | USBToolBox.kext</string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/USBToolBox</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>UTBMapV2.kext</string>
-				<key>Comment</key>
-				<string>V1.1</string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>USBPorts_for_FN60G_V2.kext</string>
 				<key>Comment</key>
 				<string>V1.0</string>
@@ -928,43 +1080,9 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>BlueToolFixup_A2DP.kext</string>
-				<key>Comment</key>
-				<string>V2.7.3</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/BlueToolFixup</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
 		</array>
 		<key>Block</key>
 		<array>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>Comment</key>
-				<string>Allow IOSkywalk Downgrade</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Identifier</key>
-				<string>com.apple.iokit.IOSkywalkFamily</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string>23.0.0</string>
-				<key>Strategy</key>
-				<string>Exclude</string>
-			</dict>
 			<dict>
 				<key>Arch</key>
 				<string>Any</string>
@@ -1139,7 +1257,7 @@
 			<key>EnablePassword</key>
 			<false/>
 			<key>ExposeSensitiveData</key>
-			<integer>15</integer>
+			<integer>7</integer>
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>PasswordHash</key>
@@ -1230,22 +1348,20 @@
 			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
-				<key>OCLP-Settings</key>
-				<string>-allow_amfi</string>
 				<key>revcpu</key>
 				<integer>1</integer>
 				<key>revcpuname</key>
-				<string>Intel Core i9-14900T</string>
+				<string>Intel Core i5-12600T</string>
 				<key>revpatch</key>
-				<string>sbvmm,pci,cpuname</string>
+				<string>sbvmm,cpuname</string>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>gfxrst=1 -pc_control_port_options=0 -no_compat_check agdpmod=pikera -wegnoigpu -lilubetaall alcid=98</string>
+				<string>gfxrst=1 -pc_control_port_options=0 -no_compat_check agdpmod=pikera -wegnoigpu alcid=98</string>
 				<key>csr-active-config</key>
 				<data>
-				fwoAAA==
+				AAAAAA==
 				</data>
 				<key>prev-lang:kbd</key>
 				<string>zh-Hants:252</string>
@@ -1255,6 +1371,7 @@
 		<dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<array>
+				<string>OCLP-Settings</string>
 				<string>OCLP-Version</string>
 				<string>rtc-blacklist</string>
 				<string>revblock</string>
@@ -1312,14 +1429,14 @@
 			<key>AdviseFeatures</key>
 			<true/>
 			<key>MLB</key>
-			<string>C02134270GUJG36FB</string>
+			<string></string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
-			<integer>3841</integer>
+			<integer>1537</integer>
 			<key>ROM</key>
 			<data>
-			BQI9B3fQ
+			AAAAAAAA
 			</data>
 			<key>SpoofVendor</key>
 			<false/>
@@ -1328,9 +1445,9 @@
 			<key>SystemProductName</key>
 			<string>iMacPro1,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02G8SYRHX87</string>
+			<string></string>
 			<key>SystemUUID</key>
-			<string>E953ACCC-0888-446B-9AF3-B9B48CC36CB0</string>
+			<string></string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1356,9 +1473,9 @@
 			<key>JumpstartHotPlug</key>
 			<false/>
 			<key>MinDate</key>
-			<integer>-1</integer>
+			<integer>0</integer>
 			<key>MinVersion</key>
-			<integer>-1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>AppleInput</key>
 		<dict>
@@ -1473,62 +1590,6 @@
 				<false/>
 				<key>Path</key>
 				<string>ResetNvramEntry.efi</string>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>HideVerbose</key>
-				<false/>
-				<key>LoadEarly</key>
-				<false/>
-				<key>Path</key>
-				<string>CrScreenshotDxe.efi</string>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Comment</key>
-				<string>Ext4</string>
-				<key>Enabled</key>
-				<true/>
-				<key>HideVerbose</key>
-				<false/>
-				<key>LoadEarly</key>
-				<false/>
-				<key>Path</key>
-				<string>Ext4Dxe.efi</string>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>HideVerbose</key>
-				<false/>
-				<key>LoadEarly</key>
-				<false/>
-				<key>Path</key>
-				<string>OpenLinuxBoot.efi</string>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Comment</key>
-				<string>Btrfs</string>
-				<key>Enabled</key>
-				<true/>
-				<key>HideVerbose</key>
-				<false/>
-				<key>LoadEarly</key>
-				<false/>
-				<key>Path</key>
-				<string>btrfs_x64.efi</string>
 			</dict>
 		</array>
 		<key>Input</key>
